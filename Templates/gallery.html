@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <link rel="shortcut icon" href="/Scripts/nmb.ico" type="image/x-icon">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Float four columns side by side */
+    .column {
+      float: left;
+      width: 25%;
+      padding: 0 10px;
+    }
+
+    .btn {
+      border: none;
+      color: white;
+      padding: 18px 35px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .success {
+      background-color: #04AA6D;
+    }
+
+    /* Green */
+    .success:hover {
+      background-color: #46a049;
+    }
+
+    .pen {
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      padding-top: 1rem;
+      font-size: xx-large;
+    }
+
+    .text {
+      font-family: 'Times New Roman', Times, serif;
+      font-style: normal;
+      font: 1em sans-serif;
+
+    }
+
+    .head {
+      font-family: 'Times New Roman', Times, serif;
+      font-style: normal;
+      font: 1em sans-serif;
+      color: rgb(194, 8, 8);
+      background-color: aqua;
+      padding-top: 1%;
+
+    }
+
+    .book {
+      color: rgb(194, 8, 8);
+      background-color: aqua;
+      padding: 1%;
+    }
+
+    /* Remove extra left and right margins, due to padding */
+    .row {
+      margin: 0 -5px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: none;
+      clear: both;
+    }
+
+    /* Responsive columns */
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+        display: none;
+        margin-bottom: 20px;
+      }
+    }
+
+    /* Style the counter cards */
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 16px;
+      text-align: center;
+      background-color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div style="text-align: center; background-color:  #52cb52;">
+    <h1 style="padding-top: 20px;">Gallery</h1>
+    <p style="padding-bottom: 10px;">All gallery and video</p>
+  </div>
+
+  <h1 class="text">Home<span> > </span>Gallery</h1>
+  <div align="center">
+    <h2 style="color: #46a049; font-size:xx-large;font-family: 'Times New Roman'">Photos
+    </h2>
+  </div>
+  </div>
+
+  <!-- 1st row -->
+  <!-- 1st image -->
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <p><img src="/Scripts/h1.jpg" alt="Family" style="width: 250px;height:200px;"></p>
+      </div>
+    </div>
+
+    <!-- 2nd image -->
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <p><img src="/Scripts/h2.jpg" alt="Family" style="width:250px;height:200px;"></p>
+        </div>
+      </div>
+      <!-- 3rd image -->
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <p><img src="/Scripts/h3.jpg" alt="Family" style="width:250px;height:200px;"></p>
+          </div>
+        </div>
+        <!-- 4th image -->
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <p><img src="/Scripts/h4.jpg" alt="Family" style="width:250px;height:200px;"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 2nd row -->
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <p><img src="/Scripts/h4.jpg" alt="Family" style="width:250px;height:200px;"></p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <p><img src="/Scripts/h5.jpg" alt="Family" style="width:250px;height:200px;"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <p><img src="/Scripts/h11.jpg" alt="Family" style="width:250px;height:200px;"></p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <p><img src="/Scripts/h14.jpg" alt="Family" style="width:250px;height:200px;"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 3rd row -->
+
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <p><img src="/Scripts/h3.jpg" alt="Family" style="width:250px;height:200px;"></p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <p><img src="/Scripts/H8.JPG" alt="Family" style="width:250px;height:200px;"></p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column">
+                <div class="card">
+                  <p><img src="/Scripts/h11.jpg" alt="Family" style="width:250px;height:200px;"></p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="column">
+                  <div class="card">
+                    <p><img src="/Scripts/h16.jpg" alt="Family" style="width:250px;height:200px;"></p>
+                  </div>
+                </div>
+              </div><br>
+            </div><br>
+
+            <div align="center">
+              <button class="btn success">Lode more</button>
+            </div>
+            <div align="center">
+              <h2 style="color: #46a049; font-size:xx-large;font-family: 'Times New Roman'"> Video</h2>
+            </div>
+
+            <div class="row">
+              <div class="column">
+                <div class="card">
+                  <video width="320" height="240" controls>
+                    <source src="/Scripts/v1.mp4" type="video/mp4">
+
+
+                  </video>
+
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="card">
+                  <video width="320" height="240" controls>
+                    <source src="/Scripts/v2.mp4" type="video/mp4">
+                    <source src="/Scripts/movie.ogg" type="video/ogg">
+
+                  </video>
+
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="card">
+                  <video width="320" height="240" controls>
+                    <source src="/Scripts/v3.mp4" type="video/mp4">
+                    <source src="/Scripts/movie.ogg" type="video/ogg">
+
+                  </video>
+
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="card">
+                  <video width="320" height="240" controls>
+                    <source src="/Scripts/v4.mp4" type="video/mp4">
+                    <source src="/Scripts/movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                  </video>
+
+                </div>
+              </div>
+            </div>
+            <!-- 2nd row -->
+            <div class="row">
+              <div class="column">
+                <div class="card">
+                  <video width="320" height="240" controls>
+                    <source src="/Scripts/v5.mp4" type="video/mp4">
+                    <source src="/Scripts/movie.ogg" type="video/ogg">
+
+                  </video>
+
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="card">
+                  <video width="320" height="240" controls>
+                    <source src="/Scripts/v6.mp4" type="video/mp4">
+                    <source src="/Scripts/movie.ogg" type="video/ogg">
+
+                  </video>
+
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="card">
+                  <video width="320" height="240" controls>
+                    <source src="/Scripts/v7.mp4" type="video/mp4">
+                    <source src="/Scripts/movie.ogg" type="video/ogg">
+
+                  </video>
+
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="card">
+                  <video width="320" height="240" controls>
+                    <source src="/Scripts/v8.mp4" type="video/mp4">
+                    <source src="/Scripts/movie.ogg" type="video/ogg">
+
+                  </video>
+
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="column">
+                <div class="card">
+                  <video width="320" height="240" controls>
+                    <source src="/Scripts/v9.mp4" type="video/mp4">
+                    <source src="/Scripts/movie.ogg" type="video/ogg">
+
+                  </video>
+
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="card">
+                  <video width="320" height="240" controls>
+                    <source src="/Scripts/v10.mp4" type="video/mp4">
+                    <source src="/Scripts/movie.ogg" type="video/ogg">
+
+                  </video>
+
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="card">
+                  <video width="320" height="240" controls>
+                    <source src="/Scripts/v1.mp4" type="video/mp4">
+                    <source src="/Scripts/movie.ogg" type="video/ogg">
+                  </video>
+
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="card">
+                  <video width="320" height="240" controls>
+                    <source src="/Scripts/v2.mp4" type="video/mp4">
+                    <source src="/Scripts/movie.ogg" type="video/ogg">
+                  </video>
+
+                </div>
+              </div>
+            </div>
+            <br>
+            <br>
+
+            <div align="center">
+              <button class="btn success">Lode more</button>
+            </div>
+            
+
+</body>
+
+</html>
